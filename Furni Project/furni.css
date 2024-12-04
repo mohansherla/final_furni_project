@@ -1,0 +1,303 @@
+body {
+    /* background-color: #3b5d50; */
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    line-height: 28px;
+}
+
+.custom-navbar{
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.header{
+
+    background-color: #3b5d50;
+}
+
+.navbar {
+    background-color: #3b5d50;
+    padding: 1rem 0;
+}
+  
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+  
+.nav-link {
+    color: #fff !important;
+    margin-left: 15px;
+}
+  
+.nav-link.active {
+    border-bottom: 2px solid #ffd700;
+}
+  
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+  
+.hero {
+    padding: 4rem 0;
+    /* background-color: #eff2f1; */
+}
+  
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+}
+  
+.hero p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: white;
+}
+  
+/* .btn btn-secondary {
+    background-color: #f9bf29;
+    border-color: #f9bf29;
+    color: #2f2f2f;
+    
+} */
+
+/* .btn-secondary{
+    background-color: #f9bf29;
+    color: black;
+    border-color: #f9bf29;
+} */
+
+.btn {
+    /* color: #ffffff; */
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 12px 30px;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn btn-white-outline {
+    background: transparent;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+
+.img-fluid1 {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    /* border-radius: 10px; */
+
+}
+  
+.div-main{
+    display: flex;
+}
+
+/* .div-main, .div1 , h3 , p{
+    color: #000;
+} */
+
+button{
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.main{
+    background-color: #eff2f1;
+}
+
+.col-12 img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-name {
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .product-price {
+            font-weight: 700;
+            color: #333;
+        }
+
+        .explore-btn {
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-transform: uppercase;
+            border: none;
+        }
+
+        .explore-btn:hover {
+            background-color: #444;
+        }
+
+        .horizontal-layout {
+            gap: 20px;
+        }
+
+        .col-md-12{
+            max-width: 30%;
+        }
+
+        .col-12 {
+            max-width: 20%;
+            text-align: center;
+        }
+
+.col-md-12{
+    h2{
+        color: #000;
+    }
+}
+
+.container1{
+    margin-top: 80px;
+    padding-left: 70px;
+    background-color: #eff2f1;
+}
+
+.why-choose-section{
+    width: 700px;
+    text-align: left;
+    padding-left: 100px;
+    background-color: #eff2f1;
+    margin-top: 200px;
+}
+
+.col-lg-6{
+    width: 700px;
+    /* margin-right: 20px; */
+    /* font-size: 2rem; */
+    
+}
+
+.section1{
+    padding-right: 150px;
+
+}
+
+.col-lg-6 p{
+    width: 600px;
+}
+
+.col-lg-6 h2{
+    width: 550px;
+}
+
+.section-title{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 14px;
+    color: #000;
+}
+
+p{
+    color: #212529;
+}
+
+h2{
+    color: #000;
+}
+
+.row my-5, .feature{
+    width: 300px;
+}
+
+.col1 p{
+    width: 620px;
+}
+
+.col-lg-5 .img-wrap{
+    position: absolute;
+    left: 700px;
+    bottom: 50px;
+    border-radius: 10px;
+}
+
+.img-fluid2{
+    /* height: 100px; */
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* .we-help-section{
+    margin-top:80px ;
+    padding: 10px;
+} */
+
+
+.We-Help-You-Make-Modern-Interior-Design{
+    margin-top: 90px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* position: absolute; */
+}
+
+ .image-grid1 img{
+    /* width: 50%;
+    height: 50px; */
+    border-radius: 10px;
+}
+ .image-grid2 img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+ .image-grid3 img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-section p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.text-section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.explore-btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+.explore-btn:hover {
+    background-color: #444;
+}
